@@ -45,13 +45,13 @@
 #define EXAMPLE_ESP_MAXIMUM_RETRY  CONFIG_ESP_MAXIMUM_RETRY
 */
 /*
-#define EXAMPLE_ESP_WIFI_SSID      "Danke12820"
-#define EXAMPLE_ESP_WIFI_PASS      "wifi.danke.life"
+#define EXAMPLE_ESP_WIFI_SSID      "wifi_ssid"
+#define EXAMPLE_ESP_WIFI_PASS      "wifi_password"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 */
 
-#define EXAMPLE_ESP_WIFI_SSID      "CE-HW"
-#define EXAMPLE_ESP_WIFI_PASS      "qqqqwwww"
+#define EXAMPLE_ESP_WIFI_SSID      "wifi_ssid"
+#define EXAMPLE_ESP_WIFI_PASS      "wifi_password"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  10
 
 /* FreeRTOS event group to signal when we are connected*/

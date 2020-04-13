@@ -78,8 +78,8 @@ void app_wifi_initialise(void)
     ESP_ERROR_CHECK(esp_wifi_set_storage(WIFI_STORAGE_RAM));
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "Danke12820",
-            .password = "wifi.danke.life",
+            .ssid = "wifi_ssid",
+            .password = "wifi_password",
             .bssid_set = false
         },
     };
